@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "TestLaptop.testKonstruktorI",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testKonstruktorI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "TestLaptop.testKonstruktorII",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testKonstruktorII",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "TestLaptop.testKopiKonstruktor",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testKopiKonstruktor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "TestLaptop.testSetter",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testSetter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "TestLaptop.testMenjalankanAplikasi",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testMenjalankanAplikasi",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "TestLaptop.testToString",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testToString",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}

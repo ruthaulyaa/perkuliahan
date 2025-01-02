@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "TestLaptop.testInheritance",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testInheritance",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "TestLaptop.testGetSetJenis",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testGetSetJenis",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 35
+    },
+    {
+      "name": "TestLaptop.testGetSetUkuranLayar",
+      "setup": "",
+      "run": "gradle test --tests TestLaptop.testGetSetUkuranLayar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 35
+    }
+  ]
+}
