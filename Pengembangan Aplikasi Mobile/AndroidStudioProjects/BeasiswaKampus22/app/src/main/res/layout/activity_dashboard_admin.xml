@@ -1,0 +1,11 @@
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/admin_b_eks"
+    android:layout_width="360dp"
+    android:layout_height="1102dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:clipToOutline="true"
+    android:background="#FFFFFF"
+    />

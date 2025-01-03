@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".HomeFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundTop"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fg_foto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="300dp"
+            android:layout_marginEnd="0dp"
+            android:background="@color/backgroundTop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+    </LinearLayout>
+
+
+   <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+       android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:layout_marginStart="40dp"
+        android:text="Hello"
+        android:textColor="@color/orange" />
+
+       <TextView
+           android:id="@+id/user"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="2sp"
+           android:paddingStart="0dp"
+           android:text="User"
+           android:textColor="@color/white" />
+       <ImageView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginStart="4sp"
+           android:src="@drawable/hand_emoji" />
+
+
+   </LinearLayout>
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/home_show"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <!-- TODO: Update blank fragment layout -->
+</LinearLayout>
+
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:name="com.example.mydel.MenuFragment"
+        app:layout_constraintTop_toBottomOf="@+id/nav_host_fragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu"
+        />
+
+
+
+</LinearLayout>
+

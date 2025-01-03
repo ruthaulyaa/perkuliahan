@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PAMPraktikum4_11S20018</string>
+
+<!--    tambahan-->
+    <string-array name="tempat_wisata">
+        <item>Candi Borobudur</item>
+        <item>Danau Toba</item>
+        <item>Candi Prambanan</item>
+        <item>Kabupaten Raja Ampat</item>
+        <item>Pura Luhur Uluwatu</item>
+        <item>Bali</item>
+    </string-array>
+
+</resources>

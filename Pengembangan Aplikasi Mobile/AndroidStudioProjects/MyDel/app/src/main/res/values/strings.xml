@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyDel</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_account">Account</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Point1">Beasiswa prestasi Per Semester diberikan bagi semua mahasiswa pada tingkat 1, tingkat 2, tingkat 3 dan tingkat 4 kecuali mahasiswa pada semester terakhir masa studinya ( semester 6 pada prodi DIII dan semester 8 pada prodi DIV dan S1).</string>
+    <string name="Point2">Besar Potongan SPP untuk penerima beasiswa prestasi per semester dapat dilihat pada tabel 1.</string>
+    <string name="Point3">Mahasiswa penerima Beasiswa Prestasi harus
+        memiliki perilaku terpuji dan dibuktikan dengan
+        nilai perilaku minimal AB.
+    </string>
+    <string name="Point4">Kuota untuk mahasiswa penerima beasiswa
+        prestasi per semester adalah sebanyak 20 ( dua
+        puluh) orang per angkatan dan maksimal 5 (lima)
+        orang untuk setiap program studi, sehingga
+        mahasiswa calon penerima beasiswa prestasi
+        akan diranking berdasarkan nilai rata-rata,
+        namun jika ditemukan kasus mahasiswa dengan
+        nilai rata-rata yang sama, sehingga melewati
+        kuota 20(dua puuh) orang maka akan diranking
+        berdasarkan nilai indeks prestasi sementara,
+        namun jika nilai indeks prestasi masih sama
+        selanjutnya akan dipilih berdasarkan nilai
+        perilaku.
+    </string>
+    <string name="Point5">Bagi mahasiswa yang sedang menerima
+        beasiswa dari Yayasan Del maupun pihak lain
+        tidak dapat menerima beasiswa prestasi.</string>
+    <string name="tv_rajawali">Rajawali Foundation menyediakan beasiswa kepada Mahasiswa Strata 1 IT Del. Beasiswa ini diberikan kepada mahasiswa terbaik IT Del yang terpilih. Sebagai bentuk kepedulian swasta di bidang pendidikan, Rajawali Foundation memberikan beasiswa bagi mahasiswa berprestasi di Institute Teknologi DEL, Tobasa, Sumatra Utara. Beasiswa ini berupa penanggungan biaya kuliah hingga lulus kuliah. Sedangkan untuk dosen, beasiswa berupa kuliah gratis ke luar negeri.</string>
+    <string name="tv_tanoto">Tanoto Foundation menggandeng mitra PT Toba Pulp Lestari Tbk untuk mendukung peningkatan kualitas pendidikan di Institut Teknologi Del (IT Del), Sumatra Utara. Komitmen tersebut diwujudkan melalui penandatanganan perjanjian kerjasama antara ketiga lembaga tersebut sebagai landasan dalam mendukung program-program peningkatan kualitas pendidikan di IT Del. Acara penandatanganan digelar di Kampus IT Del, Balige, Toba Samosir, Sumatra Utara, Senin (17/6).</string>
+    <string name="tv_inalum">Pada hari Senin, 4 April 2016, Direktur Umum dan Sumber Daya Manusia PT. Indonesia Asahan Alumenium (Inalum) Dr. Ir. Carry Mumbunan, MMA bersama dua orang staf mengunjungi kampus Institut Teknologi Del (IT Del). Kunjungan Dr. Carry Mumbunan disambut Wakil Rektor 3 IT Del Deni Lumbantoruan, ST, M.Eng dan Ketua Program Studi Teknik Elektro IT Del, Albert Sagala, ST, MT. Pertemuan ini bertujuan untuk menjajaki kerjasama yang akan dilakukan antara kedua institusi yaitu PT. Inalum dan IT Del.</string>
+</resources>

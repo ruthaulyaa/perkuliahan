@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AdminDashboard</string>
+    <string name="hello_admin">Hello Admin</string>
+    <string name="cari_inform">Cari informasi beasiswa</string>
+    <string name="beasiswa_in">Beasiswa Internal</string>
+    <string name="beasiswa_ek">Beasiswa Eksternal</string>
+    <string name="pengumuman">Pengumuman</string>
+    <string name="berita">Berita</string>
+    <string name="seleksi">Seleksi</string>
+    <string name="testimoni">Testimoni</string>
+    <string name="recent_upda">Recent Updates</string>
+    <string name="seleksi_bea">Seleksi Beasiswa BNI Fundation</string>
+    <string name="view_detail">View Detail</string>
+    <string name="days_ago">2 days ago</string>
+</resources>

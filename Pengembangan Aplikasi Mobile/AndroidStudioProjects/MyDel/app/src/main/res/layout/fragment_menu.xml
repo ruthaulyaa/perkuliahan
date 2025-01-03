@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    tools:context=".MenuFragment">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+
+        >
+        <!-- Konten Kartu 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Gambar -->
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bea_internal_user" />
+
+            <!-- Teks -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beasiswa Internal"
+                android:textSize="18sp"
+                android:textColor="@color/del"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beasiswa yang diberikan oleh Institut Teknologi Del dengan sasaran dan ketentuan yang ..."
+                android:textSize="15sp"
+                android:textColor="@color/teks"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/BtnInternal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Readme"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        >
+        <!-- Konten Kartu 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Gambar -->
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bea_eksternal_user" />
+
+            <!-- Teks -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beasiswa External"
+                android:textSize="18sp"
+                android:textColor="@color/orange"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beasiswa yang diberikan oleh Institut Teknologi Del dengan sasaran dan ketentuan yang ..."
+                android:textSize="15sp"
+                android:textColor="@color/teks"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/BtnExternal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Readme"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView></LinearLayout>
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccountFragment"
+    android:orientation="vertical"
+
+    android:padding="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundTop">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fg_foto_profil"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/backgroundTop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars"
+            android:padding="7dp"/>
+
+
+        <TextView
+            android:id="@+id/fg_account_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            app:layout_constraintStart_toEndOf="@id/fg_foto_profil"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Nama Lengkap"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/fg_account_prodi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/fg_foto_profil"
+            app:layout_constraintTop_toBottomOf="@id/fg_account_nama"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="Prodi"
+            android:textColor="@color/white"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+
+            android:text="LOG OUT" />
+
+</LinearLayout>

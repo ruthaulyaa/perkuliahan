@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72480949453",
+    "firebase_url": "https://praktikumpam-f3120-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "praktikumpam-f3120",
+    "storage_bucket": "praktikumpam-f3120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72480949453:android:8cbaf95183a20bc0601584",
+        "android_client_info": {
+          "package_name": "com.example.pampraktikum10_11s20018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72480949453-o2rlroe7n2tqid5amdkjli491hh12va4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pampraktikum10_11s20018",
+            "certificate_hash": "8872f7870353dd61c6dc62ad688e3d8ecbdbb0ee"
+          }
+        },
+        {
+          "client_id": "72480949453-t7pcjcmlol4rc6u2kjvkcf4frvtercsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-J9DWxEqN6B2Iwt28VZUTgNmn-LgthZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72480949453-t7pcjcmlol4rc6u2kjvkcf4frvtercsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

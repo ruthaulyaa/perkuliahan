@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677110641219",
+    "project_id": "pamquizgame-62204",
+    "firebase_url": "https://pamquizgame-62204-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "storage_bucket": "pamquizgame-62204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677110641219:android:0cf61df11a6a35fa1d1af6",
+        "android_client_info": {
+          "package_name": "com.example.pam_quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677110641219-d9o3itf6ab9on1iie1a5pbbrfjm2bifb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm-QlYX_jgZJY2hwltjuZdI-Q0sRHh7Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677110641219-d9o3itf6ab9on1iie1a5pbbrfjm2bifb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
