@@ -1,0 +1,5 @@
+Merah Jingga 10
+Kuning Hijau 23
+Biru Merah 17
+Nila Kuning 7
+Ungu Biru 3

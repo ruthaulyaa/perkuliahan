@@ -1,0 +1,64 @@
+run:
+10 
+15 
+20 
+30 
+60 
+70 
+85 
+ 
+20 
+30 
+60 
+70 
+85 
+ 
+20 
+30 
+50 
+60 
+65 
+70 
+80 
+85 
+ 
+30 
+50 
+65 
+70 
+80 
+85 
+ 
+5 
+30 
+40 
+50 
+55 
+65 
+70 
+80 
+85 
+90 
+ 
+5 
+30 
+40 
+50 
+55 
+65 
+80 
+85 
+90 
+ 
+Nilai minimum pada AVL Tree: 5
+Nilai maksimum pada AVL Tree: 90
+Mencari 42 pada AVL Tree: false
+Cek apakah tree kosong: false
+PrintInOrder: 
+5 30 40 50 55 65 80 85 90  
+PrintPostOder: 
+5 30 55 50 40 80 90 85 65  
+PrintPreOder: 
+65 40 30 5 50 55 85 80 90  
+Hasil tree setelah makeEmpty: true
+BUILD SUCCESSFUL (total time: 1 second)
