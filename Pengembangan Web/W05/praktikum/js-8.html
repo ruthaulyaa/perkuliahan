@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemograman Javascript 5</title>
+</head>
+<body>
+    <p id="kuis"></p>
+    <script>
+        // deklarasi variabel & array
+        var i;
+        var ikan=new Array(5);
+        //memasukkan 5 data kedalam array
+        for(i=0;i<5; i++){
+            ikan[i]=window.prompt("Masukkan 5 nama ikan");
+        }
+        //tampilkan 5 data yang telah dimasukkan
+        for(i=0; i<5; i++){
+            document.write("Nama Ikan: " +ikan[i]);
+            document.write("<br/>");
+        }
+    </script>
+    <p>Selamat anda memenangkan sepeda!</p>
+</body>
+</html>

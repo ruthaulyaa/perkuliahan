@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Validasi_11S20018</title>
+        <script src="skripKu.js"></script>
+    </head>
+
+    
+    <body>
+        <h1>Form Register</h1>
+        <hr>
+        <div name="frmregister" method="post" action="" onsubmit="mySubmit(this);">
+            <label>Nama : </label><span><input id="txtNama"></span>
+            <br><br>
+            <label>Tempat Lahir : </label><span><input id="txtTempatLhr"></span>
+            <br><br>
+            <label>Tanggal Lahir : </label><span><input id="txtTanggalLhr"></span>
+            <br><br>
+            <label>Jenis Kelamin : </label><span><input id="txtGender"></span>
+            <br><br>
+            <label>Pendidikan Terakhir: </label><span><input id="txtPendidikan"></span>
+            <br><br>
+            <input type="button" onclick="mySubmit()" value = "submit">
+        </div>
+
+        <p id ="nama"></p>
+        <p id ="tempatLhr"></p>
+        <p id ="tanggalLhr"></p>
+        <p id ="gender"></p>
+        <p id ="pendidikan"></p>
+    </body>
+</html>

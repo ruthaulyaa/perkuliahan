@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemrograman Javascript 6</title>
+    <script>
+        function validate(form){
+            var returnValue = true;
+            var Nama = document.getElementById("txtNama");
+            var TempatLhr = document.getElementById("txtTempatLhr");
+            var TanggalLhr = document.getElementById("txtTanggalLhr");
+            var Gender = document.getElementById("txtGender");
+            var Pendidikan = document.getElementById("txtPendidikan");
+            if(NamaSaya.value.length == 0) {
+                returnValue = false;
+                alert("nama harus di isi");
+                document.getElementById("txtName").focus();
+            } else if(NamaSaya.value.length < 7) {
+                returnValue = false;
+                alert("nama harus memiliki panjang minimal 7 karakter");
+                document.getElementById("txtName").focus();
+            }
+            return returnValue;
+        }
+    </script>
+
+</head>
+<body>
+    <table>
+        <form name = "frmRegister" method="post" action="" onsubmit="return validate(this);">
+        <tr>
+            <td><label for = "txtNama">Nama Saya</label></td>
+            <td> : </td>
+            <td> <input type = "text" name = "txtNama" id="txtNama" size ="12" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for = "txtTempatLhr">Tempat Lahir Saya</label></td>
+            <td> : </td>
+            <td> <input type = "text" name = "txtTempatLhr" id="txtTempatLhr" size ="12">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for = "txtTanggalLhr">Jenis Kelamin Saya</label></td>
+            <td> : </td>
+            <td> <input type = "date" name = "txtTanggalLhr" id="txtPassword2" size ="12"></td> 
+        </tr>
+
+        <tr>
+            <td><label for = "txtGender">Jenis Kelamin Saya</label></td>
+            <td> : </td>
+            <td> <input type = "text" name = "txtGender" id="txtGender" size ="1"></td>
+        </tr>
+
+        <tr>
+            <td><label for = "txtPendidikan">Pendidikan Terakhir Saya</label></td>
+            <td> : </td>
+            <td> <input type = "text" name = "txtPendidikan" id="txtPendidikan" size ="5"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="submit"></td>
+        </tr>
+        </form>
+    </table>   
+</body>
+</html>

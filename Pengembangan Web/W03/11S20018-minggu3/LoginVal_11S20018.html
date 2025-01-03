@@ -1,0 +1,44 @@
+ <!--11S20018 
+    Ruth Aulya Silalahi-->
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>LoginForm_11S20018</title>
+            <meta charset="utf-8">       
+        </head>
+    
+        <body>
+            <h1><a href="#">Form Login</a></h1>
+            <hr>
+            <fieldset>
+                <legend>Masukan akun anda disini</legend>
+                <form action="" method="get">
+                    <table> 
+                        <tr>
+                            <td><b>Username:</b></td>
+                            <td><input type="text" name="username" id="username" maxlength="8"></td>
+                        </tr>
+                          
+                        <tr>
+                            <td><b>Password:</b></td>
+                            <td><input type="password" name="password" id="katasandi" pattern="[A-Za-z0-9]{8,}$"></td>
+                        </tr> 
+                        <tr>
+                            <td><button type="button" onclick="myButton()">Login</button></td>
+                            <p id="demo"></p>
+                            <script>
+                                var username = document.getElementById("username").value;
+                                function myButton(){
+                                    alert("Selamat Datang "+ username)
+                                }
+                            </script>
+                            <td><a href="forgetten.html">Forgot username/password</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </fieldset>
+            <hr>
+            <img src="download.png" width="230px" height="45px">
+        </body>
+    </html>
